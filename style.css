@@ -1,0 +1,127 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    background-color: rgb(247, 142, 105);
+    color: rgb(238, 66, 102);
+    text-align: right;
+    top: 0%;
+    width: 100%;
+}
+
+#links {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 5px; 
+}
+
+#links a{
+    background-color: rgb(76, 224, 179);
+    border-radius: 15px;
+    font-family: sans-serif;
+    color: rgb(0, 30, 75);
+    padding: 5px;
+    font-style: none;
+    text-decoration: none;
+    font-size: large;
+}
+
+#links a:hover {    /*the hover will add white background and the text will become black*/
+    background-color: rgb(76, 224, 179);
+    color: #001e4b;
+    transition: 0.5s;
+}
+
+#logo {
+    float: left;
+    margin: 5px;
+    padding-left: 10px;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #ee4266;
+    width: auto;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.socmed {
+    display: inline;
+    float: left;
+    padding: 15px;
+}
+
+.aboutme {
+    float: right;
+    padding: 15px;
+}
+
+#background a {
+    color: black;
+    text-decoration: none;
+    font-style: none;
+}
+
+/*content in homepage*/
+
+.content {
+    text-align: center;
+}
+
+#header1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    margin-top: 50px;
+}
+
+#text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    font-size: large;
+}
+
+/*content in Data page*/
+
+.data {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 15px;
+    padding-top: 15px;
+}
+
+.datacontent {
+    padding-left: 35px;
+}
+
+/*content in Bakcground page*/
+
+.header {
+    font-size: xx-large;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+.bgcontent {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+/*content in refrence page*/
+
+.refcontent {
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: larger;
+}
